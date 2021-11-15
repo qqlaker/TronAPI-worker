@@ -179,7 +179,7 @@ if __name__ == '__main__':
             line = f.readline()
             m_pk, m_adr = line.split(' ')[0].strip('\n'), line.split(' ')[1].strip('\n')
 
-        amount = sys.argv[2]
+        amount = float(sys.argv[2])
         total_amount = (float(sys.argv[2])+1.1) * len(private_keys__addresses[0])
 
         if get_balance(m_adr) < total_amount:
@@ -203,15 +203,28 @@ if __name__ == '__main__':
             line = f.readline()
             m_pk, m_adr = line.split(' ')[0].strip('\n'), line.split(' ')[1].strip('\n')
 
-        for i in range(len(private_keys__addresses[0])):
-            usdt = get_balance_usdt(private_keys__addresses[1][i])
-            trx = get_balance(private_keys__addresses[1][i])
-            subseq = [usdt, trx]
-            print(f'{private_keys__addresses[1][i]} | trx: {trx}, usdt: {usdt/1000000}')
-            for v in range(2):
-                if subseq[v] != None:
-                    if subseq[v] != 0.0:
-                        if v == 0:
-                            send_transaction_usdt(private_keys__addresses[0][i], private_keys__addresses[1][i], m_adr, get_balance_usdt(private_keys__addresses[1][i]))
-                        if v == 1:
-                            send_transaction(private_keys__addresses[0][i], private_keys__addresses[1][i], m_adr, get_balance(private_keys__addresses[1][i]))
+        if sys.argv[2] == 'usdt':
+            for i in range(len(private_keys__addresses[0])):
+                usdt = get_balance_usdt(private_keys__addresses[1][i])
+                print(f'{private_keys__addresses[1][i]} | usdt: {usdt / 1000000}')
+                if usdt != 0.0:
+                    send_transaction_usdt(private_keys__addresses[0][i], private_keys__addresses[1][i], m_adr, get_balance_usdt(private_keys__addresses[1][i]))
+        elif sys.argv[2] == 'trx':
+            for i in range(len(private_keys__addresses[0])):
+                trx = get_balance(private_keys__addresses[1][i])
+                print(f'{private_keys__addresses[1][i]} | trx: {trx}')
+                if trx != 0.0:
+                    send_transaction(private_keys__addresses[0][i], private_keys__addresses[1][i], m_adr, get_balance(private_keys__addresses[1][i]))
+        elif sys.argv[2] == 'all':
+            for i in range(len(private_keys__addresses[0])):
+                usdt = get_balance_usdt(private_keys__addresses[1][i])
+                trx = get_balance(private_keys__addresses[1][i])
+                subseq = [usdt, trx]
+                print(f'{private_keys__addresses[1][i]} | trx: {trx}, usdt: {usdt/1000000}')
+                for v in range(2):
+                    if subseq[v] != None:
+                        if subseq[v] != 0.0:
+                            if v == 0:
+                                send_transaction_usdt(private_keys__addresses[0][i], private_keys__addresses[1][i], m_adr, get_balance_usdt(private_keys__addresses[1][i]))
+                            if v == 1:
+                                send_transaction(private_keys__addresses[0][i], private_keys__addresses[1][i], m_adr, get_balance(private_keys__addresses[1][i]))

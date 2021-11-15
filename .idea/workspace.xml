@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="89974be2-1dcc-40d9-a50f-63ee065acc6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="20d0zjLYzXAtQJOHCpswqirvKbn" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.main">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tron" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tron" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tron" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="tron" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python.test2" />
+        <item itemvalue="Python.test1" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="89974be2-1dcc-40d9-a50f-63ee065acc6c" name="Default Changelist" comment="" />
+      <created>1636359421047</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1636359421047</updated>
+      <workItem from="1636359422829" duration="7849000" />
+      <workItem from="1636370539658" duration="6066000" />
+      <workItem from="1636389805889" duration="3684000" />
+      <workItem from="1636441036656" duration="2682000" />
+      <workItem from="1636448477233" duration="7694000" />
+      <workItem from="1636466180219" duration="1113000" />
+      <workItem from="1636472647063" duration="4924000" />
+      <workItem from="1636477752727" duration="1036000" />
+      <workItem from="1636483609263" duration="4756000" />
+      <workItem from="1636489548123" duration="653000" />
+      <workItem from="1636619316309" duration="117000" />
+      <workItem from="1636699248457" duration="519000" />
+      <workItem from="1636701340422" duration="100000" />
+      <workItem from="1636723536662" duration="2547000" />
+      <workItem from="1636745650790" duration="734000" />
+      <workItem from="1636898363989" duration="1141000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1636746391300">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1636746391300" />
+    <state x="339" y="417" width="742" height="277" key="Github.ShareDialog" timestamp="1636746330587">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="339" y="417" width="742" height="277" key="Github.ShareDialog/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1636746330587" />
+    <state x="790" y="224" key="Github.UntrackedFilesDialog" timestamp="1636746348008">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="790" y="224" key="Github.UntrackedFilesDialog/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1636746348008" />
+    <state width="1877" height="226" key="GridCell.Tab.0.bottom" timestamp="1636726594717">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="226" key="GridCell.Tab.0.bottom/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1636726594717" />
+    <state width="1877" height="226" key="GridCell.Tab.0.center" timestamp="1636726594717">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="226" key="GridCell.Tab.0.center/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1636726594717" />
+    <state width="1877" height="226" key="GridCell.Tab.0.left" timestamp="1636726594717">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="226" key="GridCell.Tab.0.left/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1636726594717" />
+    <state width="1877" height="226" key="GridCell.Tab.0.right" timestamp="1636726594717">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="226" key="GridCell.Tab.0.right/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1636726594717" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1636477613948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1636477613948" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1636477613948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1636477613948" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1636477613948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1636477613948" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1636477613948">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1636477613948" />
+    <state x="461" y="164" key="SettingsEditor" timestamp="1636746211741">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040/-1280.65.1280.984@0.0.1920.1040" timestamp="1636746211741" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/tron$main.coverage" NAME="main Coverage Results" MODIFIED="1636725083299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tron$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1636483666421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tron$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1636699746700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tron$test.coverage" NAME="test Coverage Results" MODIFIED="1636450403274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
